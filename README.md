@@ -1,14 +1,7 @@
-grunt-starter [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+abpack1 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 ==========
 
-Requires node package manager <http://npmjs.org>
-
-####Installation
-
-1. `cd project`
-2. `npm install`
-3. `npm install -g grunt-cli`
-4. `grunt`
+A starter package for building responsive websites quicker. Contains basic css styles and resets, a Gruntfile.js, and several other commonly used JS files I will list later.
 
 ####Grunt tasks
 
