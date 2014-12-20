@@ -1,0 +1,40 @@
+/////////////////
+/// grid.scss ///
+/////////////////
+
+// Variables
+$site-width: 1300px; 
+$gutter-width: 3em;
+
+// Container
+.container{
+	width: 100%;
+	max-width: $site-width;
+	margin: 0 auto;
+	padding: 0;
+	
+	&:after{
+		content: '';
+		clear: both;
+		display: block;
+	}
+}
+
+// Grid
+@mixin grid($target){
+	float: left;
+	padding: 0 ($gutter-width/2);
+	width: percentage($target/$site-width);
+}
+
+// Push
+@mixin push($target){
+	position: relative;
+	left: percentage($target/$site-width);
+}
+
+// Pull
+@mixin pull($target){ 
+	position: relative;
+	left: -(percentage($target/$site-width));
+}
