@@ -1,0 +1,15 @@
+///////////////////
+/// mixins.scss ///
+///////////////////
+
+// Clearfix (http://h5bp.com/q)
+@mixin clearfix{
+	&:before,
+	&:after {
+		display: table;
+		content: "";
+	}
+	&:after {
+		clear: both;
+	}
+}
