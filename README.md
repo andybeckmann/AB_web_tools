@@ -1,7 +1,7 @@
 ABwebtools
 ==========
 
-Project starter kit using Grunt and SCSS.
+Files for starting a web project with SCSS and Grunt.
 
 ### Grunt tasks
 
