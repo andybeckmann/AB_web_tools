@@ -1,4 +1,4 @@
-ABwebtools
+AB_web_tools
 ==========
 
 Files for starting a web project with SCSS and Grunt.
