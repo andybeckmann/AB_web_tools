@@ -3,7 +3,7 @@
 ///////////////////
 
 // Clearfix (http://h5bp.com/q)
-@mixin clearfix{
+@mixin clearfix {
 	&:before,
 	&:after {
 		display: table;
