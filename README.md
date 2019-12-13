@@ -15,6 +15,5 @@ Files for starting a web project with SCSS and Grunt.
 
 ### SCSS Structure
 
-- colors.scss
-- mixins.scss
+- components/_AB_colors.scss
 - main.scss

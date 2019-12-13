@@ -1,8 +1,7 @@
-///////////////
-// main.scss //
-///////////////
+// Components
+@use 'components/_AB_colors.scss';
 
-// Universal styles
+// Universal
 * {
 	box-sizing: border-box;
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
