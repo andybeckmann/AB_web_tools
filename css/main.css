@@ -1,3 +1,15 @@
+/**
+ * AB_colors.scss v1.0.0
+ * https://github.com/andybeckmann/AB_colors/blob/master/scss/components/AB_colors.scss
+ */
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
 
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 /*# sourceMappingURL=main.css.map */
