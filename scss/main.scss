@@ -1,13 +1,5 @@
-// Color variables
+// Variables
 @use 'components/AB_colors';
 
-// Universal
-* {
-	box-sizing: border-box;
-	-webkit-tap-highlight-color: rgba(0,0,0,0);
-}
-
-img {
-	max-width: 100%;
-	height: auto;
-}
+// Global styles
+@use 'global.scss';
