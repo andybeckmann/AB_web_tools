@@ -1,14 +1,4 @@
 {
-  "name": "AB_web_tools",
-  "version": "1.0.0",
-  "description": "Files for starting a web project with SCSS using Grunt",
-  "author": {
-    "name": "Andy Beckmann",
-    "email": "contact@andybeckmann.com",
-    "url": "https://www.andybeckmann.com"
-  },
-  "repository": "github:andybeckmann/AB_web_tools",
-  "license": "MIT",
   "private": true,
   "devDependencies": {
     "grunt": "*",
