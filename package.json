@@ -7,7 +7,7 @@
     "grunt-contrib-cssmin": "*",
     "grunt-contrib-jshint": "*",
     "grunt-contrib-concat": "*",
-    "grunt-contrib-uglify": "*",
+    "grunt-rollup": "*",
     "grunt-contrib-watch": "*",
     "load-grunt-tasks": "*"
   }

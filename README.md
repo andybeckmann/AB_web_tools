@@ -9,7 +9,7 @@ Files for starting a web project with SCSS and Grunt.
 - [grunt-contrib-cssmin](https://github.com/gruntjs/grunt-contrib-cssmin)
 - [grunt-contrib-jshint](https://github.com/gruntjs/grunt-contrib-jshint)
 - [grunt-contrib-concat](https://github.com/gruntjs/grunt-contrib-concat)
-- [grunt-contrib-uglify](https://github.com/gruntjs/grunt-contrib-uglify)
+- [grunt-rollup](https://github.com/chrisprice/grunt-rollup)
 - [grunt-contrib-watch](https://github.com/gruntjs/grunt-contrib-watch)
 - [load-grunt-tasks](https://npmjs.org/package/require-grunt-configs)
 
