@@ -6,7 +6,7 @@ module.exports = function(grunt) {
 
         pkg: grunt.file.readJSON('package.json'),
 
-        // -- SASS Compilation
+        // -- SASS compilation using dart-sass
 
         'dart-sass': {
             target: {
@@ -16,7 +16,7 @@ module.exports = function(grunt) {
             }
         },
         
-        // -- CSS Minification
+        // -- CSS minification using cssmin
 
         cssmin: {
             combine: {
@@ -32,7 +32,7 @@ module.exports = function(grunt) {
             }
         },
         
-        // -- Javscript Hints
+        // -- JavScript hints using JSHint
 
         jshint: {
             options: {
@@ -43,7 +43,7 @@ module.exports = function(grunt) {
             beforeconcat: ['js/plugins.js','js/scripts.js']
         },
 
-        // -- Javascript Concatenation
+        // -- JavaScript concatenation using concat
 
         concat: {   
             dist: {
@@ -55,13 +55,14 @@ module.exports = function(grunt) {
             }
         },
 
-        // -- Javascript Minification
+        // -- JavaScript minification using Terser
 
-        rollup: {
-            options: {},
-            files: {
-              'js/build/global.min.js': ['js/build/global.js'],
-            },
+        terser: {
+            main: { 
+                files: { 
+                    'js/build/global.min.js': ['js/build/global.js'], 
+                }
+            }
         },
 
         // -- Watch
@@ -70,7 +71,7 @@ module.exports = function(grunt) {
  
             scripts: {
                 files: ['js/*.js'],
-                tasks: ['jshint:beforeconcat','concat','uglify'],
+                tasks: ['jshint:beforeconcat','concat','terser'],
                 options: {
                     spawn: false,
                 }
@@ -91,5 +92,5 @@ module.exports = function(grunt) {
 
     require('load-grunt-tasks')(grunt);
  
-    grunt.registerTask('default', ['jshint:beforeconcat','concat', 'rollup', 'dart-sass', 'cssmin', 'watch']);
+    grunt.registerTask('default', ['jshint:beforeconcat','concat', 'terser', 'dart-sass', 'cssmin', 'watch']);
 };
