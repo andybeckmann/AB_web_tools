@@ -3,12 +3,12 @@
   "devDependencies": {
     "grunt": "*",
     "grunt-cli": "*",
-    "grunt-dart-sass": "*",
+    "grunt-contrib-concat": "*",
     "grunt-contrib-cssmin": "*",
     "grunt-contrib-jshint": "*",
-    "grunt-contrib-concat": "*",
-    "grunt-terser": "*",
     "grunt-contrib-watch": "*",
+    "grunt-dart-sass": "*",
+    "grunt-terser": "*",
     "load-grunt-tasks": "*"
   }
 }
