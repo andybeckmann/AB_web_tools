@@ -8,17 +8,17 @@ AB_web_tools (v2.0.0) is a build process for modern web projects.
 - [Twitter Card](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/abouts-cards)
 - [Facebook Insights](https://www.facebook.com/business/insights/tools/audience-insights)
 
-## Tasks
+## Packages
 
-- [autoprefixer]()
-- [browser-sync]()
-- [eslint]()
-- [imagemin-cli]()
-- [onchange]()
-- [postcss-cli]()
-- [sass]()
-- [stylelint]()
-- [uglify-js]()
+- [autoprefixer](https://github.com/postcss/autoprefixer)
+- [browser-sync](https://github.com/BrowserSync/browser-sync)
+- [eslint](https://github.com/eslint/eslint)
+- [imagemin-cli](https://github.com/imagemin/imagemin-cli)
+- [onchange](https://github.com/Qard/onchange)
+- [postcss-cli](https://github.com/postcss/postcss-cli)
+- [sass](https://github.com/sass/dart-sass)
+- [stylelint](https://github.com/stylelint/stylelint)
+- [uglify-js](https://github.com/mishoo/UglifyJS)
 
 ## Scripts
 
